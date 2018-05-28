@@ -14,7 +14,7 @@ namespace HammingCoder
         public static int n1 = 14; // Длина кодового слова (блока)
         public static int k1 = 10; // Длина информационного слова
         public static Polynom fx = new Polynom("x^" + n + " + 1");
-        public static Polynom gx = new Polynom("x^" + r + " + x^3 + 1");
+        public static Polynom gx = new Polynom("x^" + r + " + x + 1");
         public static Polynom hx = fx / gx;
     }
 }
